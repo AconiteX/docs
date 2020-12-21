@@ -7,16 +7,17 @@ Welcome to SWG Source's documentation!
 ======================================
 
 .. toctree::
-   :glob:
    :maxdepth: 2
    :caption: Getting Started
    
-   getting-started/*
+   getting-started/initial-setup
+   getting-started/building-with-ant
+   getting-started/how-to-update
+   getting-started/client-configuration
+   getting-started/server-configuration
    
    :caption: Something Else
    
-   getting-started/*
-
 
 
 Indices and tables
