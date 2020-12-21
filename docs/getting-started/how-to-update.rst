@@ -1,2 +1,2 @@
-Updating the Client & Server
+Updating the Client and Server
 ======================================
