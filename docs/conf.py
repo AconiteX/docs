@@ -18,6 +18,7 @@ html_theme_options = {
   'style_external_links': True,
   'includehidden': False,
   'titles_only': True,
+  'show_sphinx': False,
 }
 html_static_path = ['_static']
 html_logo = "_images/logo.png"
