@@ -21,4 +21,3 @@ html_theme_options = {
 }
 html_static_path = ['_static']
 html_logo = "_images/logo.png"
-html_css_files = [ '_themes/sphinx_rtd_theme/custom.css', ]
