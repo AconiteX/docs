@@ -36,7 +36,7 @@ Once you've gathered the necessary information, we're ready to import the Virtua
 
 1. Go to ``File > Import Appliance``
 2. In the Import Wizard, the Appliance to Import prompt will appear first. Click the folder icon and select the path to the ``.ova`` file you downloaded. Then click ``Next``.
-3. On the Appliance Settings prompt, you may wish to change the ``CPU`` and ``RAM`` sections with the information we learned from our information gathering. Be sure you configure the Virtual Machine to meet the :doc:`Minimum System Requirements <getting-started/minimum-system-requirements>`.
+3. On the Appliance Settings prompt, you may wish to change the ``CPU`` and ``RAM`` sections with the information we learned from our information gathering. Be sure you configure the Virtual Machine to meet the :doc:`Minimum System Requirements <getting-started/minimum-system-requirements>`_.
 
 
 
