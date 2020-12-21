@@ -4,7 +4,6 @@
 project = 'SWG Source'
 copyright = '2020, SWG Source'
 author = 'SWG Source'
-extensions = ['sphinx_navtree']
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = "sphinx_rtd_theme"
