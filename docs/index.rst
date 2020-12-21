@@ -8,7 +8,18 @@ Welcome to SWG Source's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Getting Started
+   
+   /getting-started/initial-setup   
+   /getting-started/building-with-ant
+   /getting-started/environment-info
+   /getting-started/how-to-update
+   /getting-started/server-configuration
+   
+   :caption: Something Else
+   
+   /test/test-1
+   /test/test-2
 
 
 
