@@ -20,3 +20,4 @@ html_theme_options = {
   'titles_only': True,
 }
 html_static_path = ['_static']
+html_logo = "_images/logo.png"
