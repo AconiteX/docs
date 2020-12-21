@@ -26,5 +26,5 @@ Before we can setup the Virtual Machine, we must learn more about your computer 
 
 **Network Information:** We will need to determine a local static IP address we can assign to the VM. First, we need to determine what your router's DHCP (Dynamic Host Configuration Protocol) range is. This range is used to assign a local IP address to each device that connects to your network. We need to avoid this range so the VM does not collide with another device on your network.
 
-To determine your DHCP range, open Command Prompt with: ``Start (Windows Key) > Command Prompt`` or ``Windows Key + R > cmd``. In the prompt window that pops up, types ``ipconfig`` and press enter.
+To determine your DHCP range, open Command Prompt with: ``Start (Windows Key) > Command Prompt`` or ``Windows Key + R > cmd``. In the prompt window that pops up, type ``ipconfig`` and press enter.
 
