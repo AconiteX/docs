@@ -7,9 +7,10 @@ Welcome to SWG Source's documentation!
 ======================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Getting Started
    
+   getting-started/minimum-system-requirements
    getting-started/initial-setup
    getting-started/building-with-ant
    getting-started/how-to-update
