@@ -20,4 +20,11 @@ Next you'll need to download the actual Virtual Machine Image file which contain
 .. IMPORTANT::
    You should join the `SWG Source Discord <https://discord.gg/Va8e6n8>`_ if you haven't already. You can use the command **!vm** in any channel to make sure you have the latest version of the Virtual Machine Image as this guide may be outdated.
    
-This is some post-important text.
+Local Information Gathering
+--------------------------------------
+Before we can setup the Virtual Machine, we must learn more about your computer and network.
+
+**Network Information:** We will need to determine a local static IP address we can assign to the VM. First, we need to determine what your router's DHCP (Dynamic Host Configuration Protocol) range is. This range is used to assign a local IP address to each device that connects to your network. We need to avoid this range so the VM does not collide with another device on your network.
+
+To determine your DHCP range, open Command Prompt with: ``Start (Windows Key) > Command Prompt`` or ``Windows + R > cmd``. In the prompt window that pops up, types ``ipconfig`` and press enter.
+
