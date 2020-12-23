@@ -17,6 +17,8 @@ Welcome to SWG Source's documentation!
    getting-started/client-configuration
    getting-started/server-configuration
    
+.. toctree::
+   :maxdepth: 3
    :caption: Something Else
    swg-archive/patch-note-history
    
