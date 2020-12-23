@@ -18,6 +18,7 @@ Welcome to SWG Source's documentation!
    getting-started/server-configuration
    
    :caption: Something Else
+   swg-archive/patch-note-history
    
 
 
