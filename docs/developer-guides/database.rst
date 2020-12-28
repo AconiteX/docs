@@ -16,5 +16,7 @@ To add a new update, add the needed SQL to a .sql file in the updates directory 
 The final line of the SQL update file must be:
 ``update version_number set version_number=###, min_version_number=###;`` where ### is the new version number.
 
+You will also need to update ```ConfigServerDatabase.cpp`` <https://github.com/SWG-Source/src/blob/master/engine/server/library/serverDatabase/src/shared/ConfigServerDatabase.cpp>`_ in the src and change the default value of ``expectedDBVersion`` to match the new highest version number to ensure that if a user acquires an src change, it also forces the DB update. Otherwise, version mismatches can cause crashes and other errors.
+
 .. IMPORTANT::
    If you make an update that alters the schema, be sure to also make changes (or additions) to the packages, schema, or any other applicable directory so any new databases built after your update will also inherit those changes automatically.
