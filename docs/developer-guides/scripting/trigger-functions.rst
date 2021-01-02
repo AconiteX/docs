@@ -22,9 +22,9 @@ Important Considerations
 
 Script Engine Triggers
 --------------------------------------
-```java
-public int OnAttach(obj_id self) throws InterruptedException { }
-```
+.. code-block:: java
+  public int OnAttach(obj_id self) throws InterruptedException { }
+
 OnAttach is triggered when the script is attached to an object (see [GameScriptEngine.cpp#229](https://github.com/SWG-Source/src/blob/e0aceec9cb59afb2d139b043c8f3244f7c828179/engine/server/library/serverScript/src/shared/GameScriptObject.cpp#L229)). This includes the following scenarios:
 * `GameScriptObject::attachScript` is executed in the src
 * `attachScript(obj_id object, String script)` is executed in the dsrc
