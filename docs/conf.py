@@ -17,4 +17,4 @@ html_theme_options = {
   'show_sphinx': False,
 }
 html_static_path = ['_static']
-html_logo = "_images/logo.svg"
+html_logo = "logo.svg"
