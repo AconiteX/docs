@@ -1,0 +1,1 @@
+Quests are a series of individual tasks nested under a primary quest which must be completed (though not necessarily sequentially) to earn rewards. Quests are stored in SWG as two datatables, the Quest List and the Quest Task.
