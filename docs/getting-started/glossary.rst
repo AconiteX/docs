@@ -5,7 +5,7 @@ Covers common terms used in development and server operations. Terms related to 
 * Account
 * Character
 * Network ID
-* Object ID
+* Object ID (aka OID or obj_id)
 * Database
 * Draw
 * Server
