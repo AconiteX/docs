@@ -5,3 +5,7 @@ Common Server Errors and How to Fix Them
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The server is trying to use the JSON Web API to authenticate the account credentials provided against an external script but the server can't reach the script or the script isn't working correctly. Either disable this by commenting out or setting under ``[LoginServer]`` ``useJsonWebApi=false`` and ``useExternalAuth=false`` or you can correct the issue with the script.
 
+TODO:
+[exec] WARNING STRICT FATAL:     (99ddcea0): Programmer bug:  Got PreloadFinishedMessage from a cluster that wasn't on the list.  Probably indicates we aren't tracking connections properly.
+
+ Direct3D cannot be properly initialized and/or DirectX is missing
