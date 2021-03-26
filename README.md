@@ -10,6 +10,7 @@ Every page in the documentation is housed inside the `docs` directory. Documenta
 * Documentation pages should be organized into sub-directories by section (top most header) (e.g. all pages under "Getting Started" should go in `docs/getting-started`). The only files in `/docs/` are the index and configuration files.
 * Images should be placed in `docs/_images/section` (e.g. `docs/_images/getting-started/screenshot1.jpg`) which can then be referenced in rst like: `a`. The only files in the root `_images` folder are system-referenced.
 * For syntax examples for special context blocks like the `NOTICE` block, see the raw .rst files already in use.
+* Diagram Visualizations are generated from [Graphviz](https://graphviz.org/). For implementation examples, see the [Sphinx Graphviz Extension Documentation](https://www.sphinx-doc.org/en/master/usage/extensions/graphviz.html).
 
 ## Editing or Contributing
 To contribute, simply add or edit a file in the `docs` directory and submit via pull request. When a pull request is merged, ReadTheDocs will automatically rebuild the documentation with the new changes and add them to the documents site, so no additional steps are required.
