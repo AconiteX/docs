@@ -15,6 +15,10 @@ Covers common terms used in development and server operations. Terms related to 
 * Universe
 * Planet
 * Nebula
+* Node
+* Authority
+* Load Level
+* Multi-Server
 * Buildout
 * World Snapshot
 * Script (.java)
